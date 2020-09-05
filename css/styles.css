@@ -25,7 +25,7 @@
 }
 
 body {
-  background-color: #16384c;
+  background-color: teal;
 }
 
 .container {
@@ -47,13 +47,14 @@ body {
   height: 215px;
   margin: 30px 10px;
   padding: 20px 15px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
+  border-radius: 4px;
 }
 
 .card:hover {
-  height: 420px;
+  height: 400px;
 }
 
 .card__image {
@@ -67,11 +68,11 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: 0.15s ease-in-out;
+  transition: 0.2s;
 }
 
 .card:hover .card__image {
-  height: 140px;
+  height: 100px;
 }
 
 .card__body {
@@ -80,7 +81,7 @@ body {
   margin-top: -140px;
   padding: 10px 15px;
   text-align: center;
-  color: #111;
+  color: #f7f7f7;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
